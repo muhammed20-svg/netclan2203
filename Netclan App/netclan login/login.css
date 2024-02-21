@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainlogin{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width: 520px;
+    height: 340px;
+    border-radius: 20px;
+    padding-bottom: 16px;
+    box-shadow: 1px 0 20px 3px rgba(135,187,203,.3);
+    margin-left: 420px;
+    margin-top: 130px;
+    align-items: center;
+}
+
+.txt-getStarted{
+    padding: 57px 0 9px;
+    margin-bottom: 13px;
+    font-size: 1.85rem;
+    font-weight: 500;
+    color: #133d59;
+    border-bottom: 1px solid #133d59;
+    font-family: 'Poppins', sans-serif;
+    width: 232px;
+    align-items: center;
+}
+
+.loginsignup-form{
+    margin: 20px;
+}
+
+.sub-login{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-color: #E2E8F0;
+    overflow-wrap: break-word;
+}
+
+.login-countrycode{
+    width: 110px;
+    margin-right: 35px;
+    padding-bottom: 5px;
+    border: none;
+    border-bottom: 1px solid #718b9b;
+    color: #718b9b;
+    position: relative;
+    outline: none! important;
+}
+
+option{
+    border-color: #E2E8F0;
+    overflow-wrap: break-word;
+}
+
+.input-box{
+    width: 100%;
+    height: 2rem;
+    min-width: 0;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    position: relative;
+    appearance: none;
+    transition-duration: 200ms;
+    font-size: 0.875rem;
+    padding-inline-start: 12px;
+    padding-inline-end: 12px;
+    border-style: solid;
+    border-image: initial;
+    border-color: inherit;
+    background: inherit;
+}
+
+.loginsubmit-btn{
+    padding: 7px 36px;
+    align-items: center;
+    margin-bottom: 18px;
+    margin-left: 100px;
+    margin-top: 16px;
+    background-color: #42647a;
+    font-size: 17px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    outline: none! important;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+    text-decoration: none;
+}
+
+.loginsubmit-a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.txt-changenumber{
+    margin: -20 0 39px;
+    color: #718393;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration: inherit;
+}

@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.joinus_Main{
+    margin-left: 450px;
+    margin-right: 30.500px;
+    /* width: 1300px; */
+    padding-top: 26px;
+    /* height: 528px; */
+    /* align-items: center; */
+    /* vertical-align: middle; */
+}
+
+.joinus-net{
+    border-color: #E2E8F0;
+    overflow-wrap: break-word;
+    margin-top: 56px;
+    width: 480px;
+    border-radius: 20px;
+}
+
+.joinus-net{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    box-shadow: 1px 0 20px 3px rgba(135, 187, 203, .3);
+    width: 450px;
+
+}
+
+.txt-loginjoinus{
+    font-size: 1.85rem;
+    font-weight: 500;
+    color: #133d59;
+    border-bottom: 1px solid #133d59;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 57px;
+    padding-bottom: 9px;
+    margin-bottom: 13px;
+}
+
+.sub-loginjoinus{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.personal-join, .business-join, .merchant-join{
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    border: 1px solid rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline: 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.personal-join:hover, .business-join:hover, .merchant-join:hover{
+    border-color: #E2E8F0;
+    background-color: #E2E8F0;
+}
+
+.img-personal, .img-business, .img-merchant{
+    width: 30px;
+}
+
+.col-personal, .col-business, .col-merchant{
+    display: flex;
+    flex-direction: column;
+    color: rgb(19, 61, 89);
+    gap: 2px;
+}
+
+.txt-personal, .txt-business, .txt-merchant{
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sub-txtpersonal, .sub-txtbusiness, .sub-txtmerchant{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.joinus-btn{
+    background-color: white;
+    color: rgb(66, 100, 122);
+    border: 1px solid rgb(19, 61, 89);
+    padding: 7px 36px;
+    margin-bottom: 28px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.joinus-a{
+    text-decoration: none;
+    color: rgb(66, 100, 122);
+}
